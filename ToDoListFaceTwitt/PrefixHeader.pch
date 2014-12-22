@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ToDoListFaceTwitt
+//
+//  Created by Roman on 18.12.14.
+//  Copyright (c) 2014 Roman. All rights reserved.
+//
+#ifndef ToDoListFaceBook_PrefixHeader_pch
+#define ToDoListFaceBook_PrefixHeader_pch
+#import<Parse.h>
+#import "BaseViewController.h"
+#import <SVProgressHUD.h>
+#import "UIMessageHelper.h"
+#import <UIAlertView+Blocks.h>
+#import <Mailgun.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import <FacebookSDK/FacebookSDK.h>
+
+static NSString *notificationLogin = @"notificationLogin";
+static NSString *notificationLogout = @"notificationLogout";
+
+
+#define HUDSHOW {[SVProgressHUD show];}
+#define HUDHIDE {[SVProgressHUD dismiss];}
+#endif

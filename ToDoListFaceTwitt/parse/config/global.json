@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "ToDoWithFaceBook": {
+            "applicationId": "VmuluokPJebDy21ZFzvBVnCmk4FOI5zSlFyQo3EE", 
+            "masterKey": "TtkMMYW3LcV5vlEqzb0vfRozfNjqoScFIDxeaRIy"
+        }, 
+        "_default": {
+            "link": "ToDoWithFaceBook"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}
